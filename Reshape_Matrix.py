@@ -3,7 +3,7 @@ def matrix_reshape(matrix,r,c):
     n=len(matrix[0])
     if m*n != r*c:
         return matrix
-    flat= [num for row in matrix for num in row]
+    flat= [num for row in matrix for num in row] # Flatten the original matrix into a single list
     
     reshape=[]
     for i in range(r):
