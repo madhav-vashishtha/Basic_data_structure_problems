@@ -1,0 +1,3 @@
+for i in range(5,0,-1):
+    print(" " * (5-i),end='')  
+    print("*" * (2*i-1))   
